@@ -20,6 +20,7 @@ public class EhliyetKontrol {
             }
 
             // Sonucu dosyaya yaz
+            FileWriter yazici = new FileWriter("sonuc.txt");
             yazici.write(sonuc);
             yazici.close();
 
